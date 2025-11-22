@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Science Gothic", sans-serif;
+}
+body {
+  background-color: #fff;
+  color: #111;
+}
+
+header {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 24px;
+  text-align: center;
+  background: #000;
+  color: white;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.menu-bar {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.menu-bar li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.menu-bar li a:hover {
+  color: #ff3a3a;
+}
+
+.image {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.main-img {
+  max-width: 55%;
+  
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.image h3 {
+  margin-top: 15px;
+  font-size: 28px;
+}
+
+.vkName {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.Intro {
+  margin: 25px 40px 10px;
+  font-size: 26px;
+  border-left: 6px solid red;
+  background: linear-gradient(to right, #ffe5e5, #fff);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+ul {
+  margin: 0 60px;
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+.inspi{
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  padding: 10px 12px;
+  border-left: 4px solid #ff3b3b;
+  border-radius: 6px;
+  display: inline-block;
+  font-style: italic;
+}
+.para{
+  margin: 0 60px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.stat-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+h2 {
+  margin: 25px 40px 10px;
+  font-size: 26px;
+  border-left: 6px solid red;
+  background: linear-gradient(to right, #ffe5e5, #fff);
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.card {
+  background: white;
+  padding: 20px 35px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 12px;
+  width: 160px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: linear-gradient(
+    to right,
+    oklch(82.8% 0.189 84.429),
+    oklch(98.7% 0.022 95.277)
+  );
+}
+
+.card p {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.gallery {
+  text-align: center;
+  padding: 20px;
+}
+
+.gallery h2 {
+  margin-bottom: 15px;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.images img {
+  width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.contact h2 {
+  margin-bottom: 10px;
+}
+
+.contact span {
+  color: red;
+  font-weight: bold;
+}
+
+.social-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links img {
+  width: 40px;
+  transition: 0.3s;
+}
+
+.social-links img:hover {
+  transform: scale(1.23);
+}
+
+footer {
+  margin-top: 40px;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  color: whitesmoke;
+  font-size: 10px;
+}
